@@ -10,7 +10,7 @@ const Auth = (props) => {
     const navigate=useNavigate();
     useEffect(()=>{
         let login=localStorage.getItem('login');
-        if(!login){
+        if(!login){ 
           navigate('/login')
         }
     })
